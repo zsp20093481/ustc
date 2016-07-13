@@ -16,6 +16,6 @@ int main() {
 			<< *(int*)intStash.fetch(j)
 			<< endl;
 	}
-	system("pause");
+	//system("pause");
 	getchar();
 }
