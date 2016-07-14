@@ -48,6 +48,12 @@
     <ClCompile Include="Construstor1.cpp">
       <Filter>源文件\cpp</Filter>
     </ClCompile>
+    <ClCompile Include="Mem.cpp">
+      <Filter>源文件\cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="MyString.cpp">
+      <Filter>源文件\main</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="printBinary.h">
@@ -60,6 +66,9 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="Handle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Mem.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>

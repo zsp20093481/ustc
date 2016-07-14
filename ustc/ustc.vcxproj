@@ -114,6 +114,8 @@
     <ClCompile Include="Construstor1.cpp" />
     <ClCompile Include="Friend.cpp" />
     <ClCompile Include="Handle.cpp" />
+    <ClCompile Include="Mem.cpp" />
+    <ClCompile Include="MyString.cpp" />
     <ClCompile Include="NestFriend.cpp" />
     <ClCompile Include="Test.cpp" />
     <ClCompile Include="CLib.cpp" />
@@ -124,6 +126,7 @@
     <ClInclude Include="CLib.h" />
     <ClInclude Include="CppLib.h" />
     <ClInclude Include="Handle.h" />
+    <ClInclude Include="Mem.h" />
     <ClInclude Include="printBinary.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
