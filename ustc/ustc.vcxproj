@@ -128,6 +128,7 @@
     <ClInclude Include="Handle.h" />
     <ClInclude Include="Mem.h" />
     <ClInclude Include="printBinary.h" />
+    <ClInclude Include="require.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

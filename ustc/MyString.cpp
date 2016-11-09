@@ -22,7 +22,7 @@ MyString::MyString()
 MyString::MyString(char * str)
 {
 	buf = new Mem(strlen(str) + 1);
-	strcpy((char*)buf->pointer(), str);
+	//strcpy_s((char*)buf->pointer(), (char*)str);
 }
 
 MyString::~MyString()
@@ -36,7 +36,7 @@ void MyString::concat(char * str)
 	{
 		buf = new Mem;
 	}
-	strcat((char*)buf->pointer(buf->msize() + strlen(str) + 1), str);
+	//strcat((char*)buf->pointer(buf->msize() + strlen(str) + 1), str);
 }
 
 void MyString::print(ostream& os)
